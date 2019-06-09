@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript">
+	var Image = new Array("Dell-XPS-1521.jpg","Hanns-HL245.jpg","e.jpg", "iphone.jpg", "f.jpg");
+	var Image_Number = 0;
+	var Image_Length = Image.length - 1;
+	
+function slide(num)
+{
+	Image_Number=Image_Number+num;
+	if (Image_Number>Image_Length)
+	{
+		Image_Number=0;
+	};
+	if (Image_Number<0)
+	{
+		Image_Number=Image_Length;
+	}
+	document.getElementById('slideshow').src=Image[Image_Number];
+	document.getElementById('slideshow').height = "405";
+
+}
+function auto()
+	{
+		setInterval("slide(1)", 2000);
+	}
+
+</script>
+
+<head><title> UE</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+
+
+td#style7 a h3:hover 
+{
+	color:red;
+}
+td#style8 a h3:hover 
+{
+	color:red;
+}
+#style7
+{
+    
+        
+    transition: all .2s ease-in-out;    // transitions allows you to change property values smoothly (from one value to another), over a given duration.
+}
+#style7:hover
+{
+     transform: scale(1.1);			//The transform property applies a 2D or 3D transformation to an element
+	}
+</style>
+<link href="css.css" rel="stylesheet">
+
+<body onload="auto()">
+<table>
+<tr>
+<td>
+<div style="border-radius:4em; margin-left:70px; margin-right:70px">
+					<form role="form">
+						<img style="margin-left:45px" src="PC-Monitors-logo.png" id="style5" height="50px" width="195px" />
+						<input type="text" style="margin-left:700px" class="search-form" autocomplete="off" id="style6" placeholder="Search">
+						<input class="submit-button"  name="Go" type="button" onclick="window.alert('Sorry,The Search Bar Is Unavailable For The Moment!')" />
+						
+						
+					</form>
+<br/>
+
+</div>
+
+
+
+
+<div class="class1" id="style11">
+<ul id="menu" style="margin-bottom:23px"><b>
+	<li><a id="topmenu" style="padding-left:75px; padding-right:50px; margin-left:5px" href="">Home</a></li>
+	<li><a  style="float:left; padding-right:43px; padding-left:42px" href="pc1.html">P.C</a></li>
+	<li><a style="float:left; padding-right:42px; padding-left:42px" href="pc2.html">Mobile</a></li>
+	<li><a style="float:left; padding-right:42px; padding-left:42px" href="pc3.html">Laptop</a></li>
+	<li><a style="float:left; padding-right:42px; padding-left:42px" href="pc4.html">Accessories</a></li>
+	<li><a style="float:left; padding-right:42px; padding-left:42px" href="aboutus.html">About Us</a></li>
+	<li><a style="float:left; padding-right:43px; padding-left:42px" href="history1.html">History</a></li>
+	<li><a id="lastmenu" style="padding-left:40px; padding-right:60px"  href="contactus.html">Contact Us</a></li>
+
+</ul>
+
+
+</div>
+<div class="class5" style="border-top-left-radius: 4em; border-top-right-radius: 4em; margin-top:61px" >
+<h2 align="center"><br/>" We Provide Efficient Reliable Services At Competitive Prices " - Our Business Is Your Business -</h2>
+</div>
+
+
+<div class="class2" style="border-bottom-left-radius: 4em; border-bottom-right-radius: 4em" align="center">
+
+<img src="iphone.jpg" height="60%" width="60%" id="slideshow" />
+
+</div>
+
+<div class="class6">
+<h1 align="center"><br/>Our Services</h1>
+<table align="center" id="style9"  cellspacing="50" class=".hovertable">
+<tr >
+<td style="padding:2% 5% 5% 5%;margin-right:auto; 
+	border-radius:4em;
+	background-color:white;" align="center" id="style7"><a href="hp1.html"><h3> DELL MF839LL/A MacBook Pro</h3></a><img src="Images\hp1.jpg" height="200px" width="200px"  /></td>
+<td style="padding:2% 5% 5% 5%;margin-right:auto; 
+	border-radius:4em;
+	background-color:white;" align="center" id="style7" width="35%"><a href="hp2.html"><h3>DELL MACBOOK AIR MD223ZA,<br/> 11.6 INCH LED, INTEL CORE I5</h3></a><img src="Images\hp2.png" height="200px" width="200px" /></td>
+<td align="center" style="padding:2% 5% 5% 5%;margin-right:auto; 
+	border-radius:4em;
+	background-color:white;" id="style7" width="33%"><a href="hp3.html"><h3>HTC One M8 <br/> 11-inch/ 1.6GHz DC / 4GB / 128GB  </h3></a><img src="a.png" height="200px" width="200px" /></td>
+</tr>
+<tr>
+<td style="padding:2% 5% 5% 5%;margin-right:auto; 
+	border-radius:4em;
+	background-color:white;" style="padding:5%" align="center" id="style7"><a href="hp4.html"><h3> iOS 4 for iPhone</h3></a><img src="e.jpg" height="150px" /></td>
+<td align="center" style="padding:2% 5% 5% 5%;margin-right:auto; 
+	border-radius:4em;
+	background-color:white;" id="style7"><a href="hp5.html"><h3 style="margin-bottom:0px"> Aviation Headset</h3></a><img src="Images\a6.jpg" height="200px" width="auto" /></td>
+<td align="center" style="padding:2% 5% 5% 5%;margin-right:auto; 
+	border-radius:4em;
+	background-color:white;" id="style7"><a href="hp6.html"><h3> LOGITECH G402 HYPERION FURY</h3></a><img src="Images\a5.jpg" height="220px" width="250px" /></td>
+</tr>
+</table>
+
+
+</div>
+
+<div class="class3">
+<div style="float:left; margin-left:80px">
+ <h3 style="margin-left:60px">Our Company</h3>
+ <ul id="menu2">	
+	<li><a href=" ">We are hiring</a></li><br/>
+	<li><a href="ourteams.html">Meet the team</a></li><br/>
+	<li><a href="copyright.html">Copyright</a></li><br/>
+	<li><a href=" ">Terms of use</a></li><br/>
+	<li><a href="privacy.html">Privacy policy</a></li><br/>
+	<li><a href="contactus.html">Contact us</a></li><br/>
+</ul>
+</div>
+<div style="float:left; margin-left:80px">
+<h3 style="margin-left:60px">Support</h3>
+ <ul id="menu2">	
+	<li><a href="FAQ.html ">Faq</a></li><br/>
+	<li><a href=" " onclick="window.alert('this page is unavailable at the moment')">Blog</a></li><br/>
+	<li><a href=" " onclick="window.alert('this page is unavailable at the moment')">Forum</a></li><br/>
+	<li><a href=" " onclick="window.alert('this page is unavailable at the moment')">Refund policy</a></li><br/>
+	<li><a href=" " onclick="window.alert('this page is unavailable at the moment')">Billing System</a></li><br/>
+	<li><a href=" " onclick="window.alert('this page is unavailable at the moment')">Documentaion</a></li><br/>
+</ul>
+</div>
+<div style="float:left; margin-left:80px">
+	<h3 style="margin-left:60px">Our Partners</h3>
+	<ul id="menu2">
+		<li><a href="">Sharyar</a></li><br/>
+		<li><a href="">Farukh</a></li><br/>
+		<li><a href="">Faaiz</a></li><br/>
+		<li><a href="">Gujjar</a></li><br/>
+		<li><a href="">Chottu</a></li><br/>
+		<li><a href="">Moin</a></li><br/>
+		
+	</ul>
+</div>    
+<div style="float:left; margin-left:80px">
+	<h3 style="margin-left:60px">Developers</h3>
+	<ul id="menu2">
+		<li><a href=" ">Web Development</a></li><br/>
+		<li><a href=" ">SEO Marketing</a></li><br/>
+		<li><a href=" ">Theme</a></li><br/>
+		<li><a href=" ">Development</a></li><br/>
+		<li><a href=" ">Email Marketing</a></li><br/>
+		<li><a href=" ">Plugin Development</a></li><br/>
+		
+   </ul>
+</div>
+
+
+
+</div>
+
+	<div class="class4" style="width:95%;border-top:7px #c52d2f solid"> 
+
+		<footer id="footer">
+        
+                <div class="col-sm-6">
+                    &copy; 2016 <a target="_blank" href="privacy.html" title="Learn about our privacy policies">Privacy Policy</a>. All Rights Reserved.
+                </div>
+                <div class="col-sm-6" style="margin-right:50px">
+                    <ul class="pull-right">
+                        <li><a href="homepage.html">Home</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="FAQ.html">Faq</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                   </ul>
+       </div>    
+		</footer><!--/#footer-->
+	</div>
+</td>
+	</tr>
+	</table>
+
+</body>
+</html>
